@@ -2,6 +2,8 @@
 
 module.exports = function(time, opts){
 
+  if(!opts){ opts = {}; }
+  
   //convert down from milliseconds
   if(opts.milliseconds){ time = time/1000; }
 
@@ -28,5 +30,5 @@ module.exports = function(time, opts){
   }else{
     return times.join(':');
   }
-  
+
 }
