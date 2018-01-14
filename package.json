@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository":"https://github.com/dudewheresmycode/node-hhmmss-util",
   "keywords": [],
-  "author": "",
+  "author": "dudewheresmycode",
   "license": "ISC"
 }
